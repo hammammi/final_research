@@ -152,7 +152,7 @@ void Operation::preset_cocktail_recipes()
 
 	int disp_mtrl11[12] = {30,0,0,0,0,0,0,0,0,0,0,0};
 	int pump_mtrl11[9] = {0,0,0,0,0,0,0,120,0 };
-	Cocktail cocktail_instance11("ScrewDriver", disp_mtrl11, pump_mtrl11, TechniqueMethod::STIR, 4, 255, 210, 1);//2
+	Cocktail cocktail_instance11("ScrewDriver", disp_mtrl11, pump_mtrl11, TechniqueMethod::STIR, 3, 255, 210, 1);//2
 	cocktail_arr[10] = cocktail_instance11;
 
 	int disp_mtrl12[12] = { 0,0,0,30,15,0,0,0,0,0,0,0 };

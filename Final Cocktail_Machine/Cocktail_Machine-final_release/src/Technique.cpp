@@ -40,10 +40,10 @@ void Technique::stir(int a_glass)
 	pinMode(48, OUTPUT);
 	pinMode(49, OUTPUT);
 
-	// 모터 속도 조절 (지금은 안 씀)
+	
 	pinMode(11, OUTPUT);
 	analogWrite(11, 60);
-	digitalWrite(48, HIGH);  digitalWrite(49, LOW); // 모터 정지
+	digitalWrite(48, HIGH);  digitalWrite(49, LOW);
 	delay(5000); // 젓는 시간 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	digitalWrite(48, HIGH); digitalWrite(49, HIGH);
 	delay(100); // 다 젓고 기다리는 시간 @@@@@@@@@@@@@@@@@@@@@

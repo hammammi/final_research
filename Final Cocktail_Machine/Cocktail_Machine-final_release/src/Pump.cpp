@@ -42,8 +42,8 @@ int Pump::cal_pump(int amount, int pump_num)
 {
 	//이거 배열안쓰고 다 600으로 해줘도 될것같음
 	// 펌프 얼마나 잘 나오는지?
-	int pump_wait_time[9] = { 1000,1000,2000,2000,2000,2000,2000,2000,2000 }; // 9번은 아직 미정, 
-	int pump_ratio[9] = { 20,20,60,60,60,60,60,60,60 };
+	int pump_wait_time[9] = { 1000,1000,2000,2000,2000,2000,2000,2000,2500 }; // 9번은 아직 미정, 
+	int pump_ratio[9] = { 20,20,60,60,50,60,60,60,70 };
 	
 	int pump_time = pump_wait_time[pump_num - 1] + amount * pump_ratio[pump_num - 1]; //양->초
 	return pump_time;
